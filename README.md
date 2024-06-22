@@ -5,5 +5,6 @@ This project implements a generative chatbot using Retrieval-Augmented Generatio
 
 This project uses various libraries to create a generative chatbot with Retrieval-Augmented Generation (RAG). It extracts transcripts from YouTube videos using YoutubeLoader, splits these transcripts into manageable chunks with CharacterTextSplitter, and converts the chunks into embeddings via OllamaEmbeddings. These embeddings are stored in a Chroma vector database for retrieval. A prompt template then formats the retrieved context and user question for the Mistral LLM, which generates an answer. The project includes a Streamlit interface where users can input YouTube URLs and questions, triggering the processing function to display the answer. Additionally, the same task can be accomplished using the OpenAI API for generating responses.
 
+![Result](result.png)
 
 
