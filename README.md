@@ -1,4 +1,3 @@
-# Arcitech Assignment
 
 Generative Chatbot using Retrieval-Augmented Generation (RAG)
 This project implements a generative chatbot using Retrieval-Augmented Generation (RAG). The chatbot leverages YouTube links to transcribe videos and uses a large language model (LLM) to perform question-and-answer tasks based on a knowledge base. The project has been run locally using Ollama, which incorporates the Mistral LLM and Nomic-Embed-Text for embeddings. There are two available interfaces: Flask and Streamlit.
